@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", serif;
+}
+
+body{
+    background: #1E1E1E;
+}
+
+a{
+    text-decoration: none;
+}
+
+:root{
+    --blue-col: #01acfd;
+    --orange-col: #fea301;
+    --paste-col :#27d9e2;
+    --nevi-col:#5d58ef;
+    --btn-col: #111111;
+}
+
+.container{
+    max-width: calc(100% - 5.5%);
+    margin-inline: auto;
+    padding: 0 8%;
+    background: #f7f7f7;
+}
+
+/* header section start */
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.navbar-name{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navbar-items ul{
+    display: flex;
+    gap: 32px;
+}
+
+.navbar-items ul li{
+    list-style: none;
+}
+
+.navbar-items ul li:nth-child(1){
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.navbar-items ul li:nth-child(2),
+.navbar-items ul li:nth-child(3),
+.navbar-items ul li:nth-child(4)
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.orange{
+    color: var(--orange-col);
+}
+
+.yellow{
+    color: var(--orange-col);
+}
+
+.paste{
+    color: var(--paste-col);
+}
+
+.nevi-blue{
+    color: var(--nevi-col);
+}
+
+.navbar-icon{
+    width: 62px;
+    height: 62px;
+}
+
+.navbar_logo-name{
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.btn{
+    background: var(--orange-col);
+    color: #ffff;
+    padding: 10px 60px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+}
+/* header section end */
