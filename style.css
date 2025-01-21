@@ -19,6 +19,7 @@ a{
     --paste-col :#27d9e2;
     --nevi-col:#5d58ef;
     --btn-col: #111111;
+    --green-col: #95b226;
 }
 
 .container{
@@ -145,12 +146,16 @@ a{
 /* hero section end */
 
 /* curriculum Section Start */
-.curriculum-cards_items{
-    padding: 60px 0;
+
+.curriculum > .container{
     background-image: url(assets/img/bg.png);
-    background-position: top;
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.curriculum-cards_items{
+    padding: 60px 0;
 }
 
 .banner-heading-box{
@@ -228,3 +233,174 @@ a{
     cursor: pointer;
 }
 /* curriculum Section end */
+
+/* Story section Start */
+
+.story > .container{
+    background-image: url(assets/img/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.story-inner-con{
+    padding: 80px 0;
+    background-color:linear-gradient(#F2E8FF, white);}
+
+.story-heading{
+    text-align: center;
+}
+
+.story-heading-title{
+    font-size: 44px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+.story-box-one{
+    max-width: 540px;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 16px;
+}
+
+.story-box-img{
+    position: relative;
+}
+
+.story-box-img img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.story-box-time{
+    position: absolute;
+    top: 314px;
+    left: 25px;
+}
+
+.story-box-time-zone{
+    background: var(--paste-col);
+    color: #fff;
+    font-size: 15.34px;
+    font-weight:400;
+    padding: 14px 16px;
+    border-radius: 48px;
+}
+
+.story-box-content{
+    padding-top:56px;
+    padding-bottom: 35px;
+    padding-left:38px ;
+}
+
+.time-title{
+    font-family: "Raleway", serif;
+}
+
+.story-box-title{
+    width: 402px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 38.3px;
+    color: #000000;
+    margin-bottom: 38px;
+}
+
+.story-desc{
+    width: 433.06px;
+    font-size: 15.34px;
+    line-height: 28.8px;
+    font-family: "Raleway", serif;
+    margin-bottom: 34px;
+    color: #666666;
+}
+
+.story-box-layout{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.story_box-items{
+    display: flex;
+    gap: 20px;
+}
+
+.story-box-second-layout{
+    display: flex;
+    gap: 20px;
+}
+
+.story-box-third-layout{
+    display: flex;
+    gap: 20px;
+}
+
+
+.story-box-second-layout-content,
+.story-box-third-layout-content{
+    background: #fff;
+    border-radius: 16px;
+}
+
+.story-box-second-layout-inner-content,
+.story-box-third-layout-inner-content{
+    border-radius: 16px;
+    padding-top: 44px;
+    padding-bottom: 28px;
+    padding-left: 38px;
+    padding-right: 38px;
+}
+
+.story-box-second-layout-inner-content-img img,
+.story-box-third-layout-inner-content-img img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.story-box-second-layout-inner-content-time-title,
+.story-box-third-layout-inner-content-time-title{
+    font-family: "Raleway", serif;
+}
+
+.story-box-second-layout-inner-content-time-zone,
+.story-box-third-layout-inner-content-time-zone{
+    background: var(--green-col);
+    color: #fff;
+    font-size: 15.34px;
+    border-radius: 38px;
+    padding: 10px 20px;
+    width: 180px;
+}
+
+.story-box-second-layout-inner-content-img,
+.story-box-third-layout-inner-content-img{
+    position: relative;
+}
+
+.story-box-second-layout-inner-content-time{
+    position: absolute;
+    top: 170px;
+    bottom: 2px;
+    left: 30px;
+}
+
+.story-box-third-layout-inner-content-time{
+    position: absolute;
+    left: 30px;
+    margin-top: -24px;
+}
+
+.story-box-second-layout-inner-content-title,
+.story-box-third-layout-inner-content-title{
+    font-weight: bold;
+    line-height: 28.8px;
+    font-size: 15.34px;
+
+}
+
+/* Story section End */
