@@ -522,6 +522,7 @@ footer{
     }
 
     .menu_bar i{
+        display: block;
         font-size: 30px;
         cursor: pointer;
         margin-right: 5%;
@@ -609,7 +610,7 @@ footer{
     }
 
     .story-box-second-layout-inner-content-time{
-        margin-top: -56px;
+        margin-top: -28px;
     }
 
     .story-box-forth-layout-inner-content-img{
@@ -726,7 +727,7 @@ footer{
     }
 }
 
-@media screen and  (min-width :577px) and (max-width: 1540px)  {
+@media screen and (min-width :577px) and (max-width: 1540px){
     .menu_bar{
         display: none;
     }
